@@ -1,4 +1,4 @@
-package com.ch04.config;
+package com.ch05.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.ch04"})
+@ComponentScan(basePackages = {"com.ch05"})
 public class AppConfig implements WebMvcConfigurer {
 
     @Override

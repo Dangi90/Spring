@@ -1,4 +1,4 @@
-package com.ch04.config;
+package com.ch05.config;
 
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
